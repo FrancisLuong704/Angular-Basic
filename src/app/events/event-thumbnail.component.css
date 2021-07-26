@@ -1,0 +1,11 @@
+.pad-left {
+    margin-left: 10px;
+}
+
+.thumbnail {
+    min-height: 210px;
+}
+
+.event-box {
+    background-color: #d3d3d3;
+}
