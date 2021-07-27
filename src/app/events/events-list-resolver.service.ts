@@ -16,6 +16,7 @@ export class EventListResolver implements Resolve<any> {
         const eventList = this.eventService.getEvents().pipe(map(events => events))
         return eventList;
     }
+    
     /*
     Typically when we listen to an observable, we would call subscribe here instead of map
     but because this is in an resolver, we need to return the observable to Angular
